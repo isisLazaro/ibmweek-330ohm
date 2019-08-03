@@ -17,3 +17,7 @@
 ## Resumen de la solución
 
 El objetivo de nuestro primer alcance es alimentar un cotizador con una base de datos relacional y poder acceder a esa base de datos a trvés de un servicio de IBM.
+
+## RECURSOS
+
+[PRESENTACIÒN](https://docs.google.com/presentation/d/1yXfpx5wW26b45Fq9vt6YMKQOl6JAIFooUYRpI4c8kDI/edit?usp=sharing)
