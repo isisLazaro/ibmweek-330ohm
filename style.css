@@ -1,0 +1,19 @@
+*  { 
+ font-family: 'Tajawal', sans-serif;
+ box-sizing:border-box;
+ margin: 0%;
+ padding: 0%;
+}
+/*Generales*/
+header {
+    background-color: #303234;
+    width: 100vw;
+    height: 6rem;
+    margin: 0 auto;
+    top: 0;
+    padding-bottom: 0;
+    position: sticky;
+  }
+.main-nav {
+    background-color: #303234
+}
