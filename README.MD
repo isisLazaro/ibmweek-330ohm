@@ -2,6 +2,7 @@
 
 ## Arquitectura de la solución
 
+![flowsolutio](img/330flow.jpg)
 ## Roadmap de seguridad
 
 1. Analizar posibles amenazas
