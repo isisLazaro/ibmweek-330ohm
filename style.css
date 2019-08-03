@@ -1,31 +1,112 @@
 *  {
- font-family: 'Tajawal', sans-serif;
- box-sizing:border-box;
- margin: 0%;
- padding: 0%;
-}
-/*Generales*/
-header {
-   position: sticky;
-    background-color: #303234;
-    width: 100vw;
-    height: 6rem;
-    margin: 0 auto;
-    top: 0;
-    padding-bottom: 0;
+  font-family: 'Tajawal', sans-serif;
+  box-sizing:border-box;
+  margin: 0%;
+  padding: 0%;
+ }
+ /*Generales*/
+ header {
     position: sticky;
-  }
-.main-nav {
-    background-color: #303234
+     background-color: #303234;
+     width: 100vw;
+     height: 6rem;
+     margin: 0 auto;
+     top: 0;
+     padding-bottom: 0;
+   }
+/*Welcome*/
+.bground {
+  background-image: url(img/bground.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 100vh;
+  position: relative;
 }
-.cotizador{
-  display: block;
-  margin-top: ;
+.welcome {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #F29E30;
+  width: 60vw;
+  height: 50vh;
+  opacity: 0.9;
 }
-.seleccionar{
-  display: block;
-  width: 50%;
+#welcome-text {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  margin-top: 5%;
+  font-size: 3.4rem;
+  position: relative;
 }
-.form-cotizador {
-  display:block;
+#invite-text {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  margin-top: 10%;
+  margin-right: 3%;
+  font-size: 2rem;
+}
+#invite-text a {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.button-gosection {
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  margin-top: 20%;
+  background-color: #FF6214;
+  border-color: #FF6214;
+  width: 15rem;
+  height: 4rem;
+  border-radius: 1rem;
+  text-decoration: none;
+  color: black;
+}
+img{
+  width: 15vw;
+  margin: 1.5rem;
+  margin-left: 2rem;
+ }
+ nav .menu{
+  background-color:#f50;
+  line-height: 26px;;
+ }
+ .menu{
+  display: flex;
+ }
+ li{
+  margin: 1em;
+  font-size: 1.2rem;
+ }
+   /*Cotizador*/
+ .main-nav {
+     background-color: #303234
+ }
+ .cotizador{
+   display: block;
+ }
+ .seleccionar{
+   display: block;
+   width: 50%;
+ }
+ .form-cotizador {
+   display:block;
+ }
+.header-cotizador {
+  position: relative;
+  background-color: #303234;
+  width: 100vw;
+  height: 8rem;
+  margin: 0 auto;
+  top: 0;
+  padding-bottom: 0;
+  
 }

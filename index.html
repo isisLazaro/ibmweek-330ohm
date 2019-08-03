@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
-
+​
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -10,19 +10,33 @@
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
 	<link href="https://fonts.googleapis.com/css?family=Tajawal&display=swap" rel="stylesheet">
 </head>
-
+​
 <body>
-	<header>
-		<!-- <nav class="main-nav"></nav>  -->
-	</header>
+		<header>
+				<img src="img/logo-330.png">
+					 <!-- <nav class="main-nav"></nav>  -->
+		</header>
 	<main>
-		<section>
+        <section class="bground">
+				<div class="welcome">
+						<div id="welcome-text">
+							<h1>¡Conoce nuestro nuevo cotizador!</h1>
+						</div>
+						<div id="invite-text">
+							<p> Realiza ahora tus cotizaciones en línea</p>
+							<a href="#cotizador" class="button-gosection">Ir al cotizador</a>
+						</div>
+					</section>
+		<section id="cotizador">
+            <header class="header-cotizador">
+​
+            </header>
 			<!--Formulario cotizacion -->
       <div class="form-cotizador">
 			<div class="row">
-
+​
 				<form class="col s12">
-
+​
 					<div class="row">
 						<div class="input-field col s6">
 							<input id="input_text" type="text" data-length="10">
@@ -47,9 +61,9 @@
 							<label for="input_text">Teléfono</label>
 						</div>
 					</div>
-
+​
 <div class="seleccionar">
-
+​
             <label>Producto</label>
              <select class="browser-default" disabled>
                <option value="" disabled selected>Choose your option</option>
@@ -57,7 +71,7 @@
                <option value="2">Option 2</option>
                <option value="3">Option 3</option>
              </select>
-
+​
              <label>Browser Disabled</label>
  <select class="browser-default" disabled>
    <option value="" disabled selected>Choose your option</option>
@@ -66,8 +80,8 @@
    <option value="3">Option 3</option>
  </select>
  </div>
-
-
+​
+​
 				</form>
 			</div>
     </div>
@@ -77,5 +91,5 @@
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
   <script src="form.js"></script>
 </body>
-
+​
 </html>
