@@ -14,7 +14,6 @@
      top: 0;
      padding-bottom: 0;
    }
-
 /*Welcome*/
 .bground {
   background-image: url(img/bground.jpg);
@@ -24,7 +23,6 @@
   height: 100vh;
   position: relative;
 }
-
 .welcome {
   display: flex;
   align-items: center;
@@ -72,7 +70,6 @@
   text-decoration: none;
   color: black;
 }
-
 img{
   width: 15vw;
   margin: 1.5rem;
@@ -103,7 +100,6 @@ img{
  .form-cotizador {
    display:block;
  }
-
 .header-cotizador {
   position: relative;
   background-color: #303234;
