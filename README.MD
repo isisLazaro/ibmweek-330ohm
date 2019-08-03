@@ -15,3 +15,5 @@
 8. Realizar pruebas periódicas de seguridad, auditar, adaptar
 
 ## Resumen de la solución
+
+El objetivo de nuestro primer alcance es alimentar un cotizador con una base de datos relacional y poder acceder a esa base de datos a trvés de un servicio de IBM.
